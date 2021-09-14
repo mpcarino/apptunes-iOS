@@ -93,7 +93,7 @@
 		656C5E6D26F03523005B62E2 /* Apptunes */ = {
 			isa = PBXGroup;
 			children = (
-				656C5E6E26F03523005B62E2 /* AppDelegate.swift */,
+				656C5E9E26F0378E005B62E2 /* App */,
 				656C5E7726F03525005B62E2 /* Assets.xcassets */,
 				656C5E7926F03525005B62E2 /* LaunchScreen.storyboard */,
 				656C5E7C26F03525005B62E2 /* Info.plist */,
@@ -117,6 +117,14 @@
 				656C5E9226F03526005B62E2 /* Info.plist */,
 			);
 			path = ApptunesUITests;
+			sourceTree = "<group>";
+		};
+		656C5E9E26F0378E005B62E2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				656C5E6E26F03523005B62E2 /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
