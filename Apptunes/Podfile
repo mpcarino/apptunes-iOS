@@ -7,6 +7,9 @@ target 'Apptunes' do
 
   # Pods for Apptunes
   
+  # https://github.com/SwiftGen/SwiftGen
+  pod 'SwiftGen'
+  
   # https://github.com/vhesener/Closures
   pod 'Closures'
   
@@ -14,7 +17,7 @@ target 'Apptunes' do
   pod 'Reusable'
   
   # https://github.com/onevcat/Kingfisher
-  pod 'Kingfisher
+  pod 'Kingfisher'
   
   # https://github.com/SnapKit/SnapKit
   pod 'SnapKit'
