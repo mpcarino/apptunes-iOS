@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		656C5E6F26F03523005B62E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5E6E26F03523005B62E2 /* AppDelegate.swift */; };
-		656C5E7126F03523005B62E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5E7026F03523005B62E2 /* SceneDelegate.swift */; };
-		656C5E7326F03523005B62E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5E7226F03523005B62E2 /* ViewController.swift */; };
-		656C5E7626F03523005B62E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656C5E7426F03523005B62E2 /* Main.storyboard */; };
 		656C5E7826F03525005B62E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656C5E7726F03525005B62E2 /* Assets.xcassets */; };
 		656C5E7B26F03525005B62E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656C5E7926F03525005B62E2 /* LaunchScreen.storyboard */; };
 		656C5E8626F03526005B62E2 /* ApptunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5E8526F03526005B62E2 /* ApptunesTests.swift */; };
@@ -37,9 +34,6 @@
 /* Begin PBXFileReference section */
 		656C5E6B26F03523005B62E2 /* Apptunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apptunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656C5E6E26F03523005B62E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		656C5E7026F03523005B62E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		656C5E7226F03523005B62E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		656C5E7526F03523005B62E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		656C5E7726F03525005B62E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		656C5E7A26F03525005B62E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		656C5E7C26F03525005B62E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				656C5E6E26F03523005B62E2 /* AppDelegate.swift */,
-				656C5E7026F03523005B62E2 /* SceneDelegate.swift */,
-				656C5E7226F03523005B62E2 /* ViewController.swift */,
-				656C5E7426F03523005B62E2 /* Main.storyboard */,
 				656C5E7726F03525005B62E2 /* Assets.xcassets */,
 				656C5E7926F03525005B62E2 /* LaunchScreen.storyboard */,
 				656C5E7C26F03525005B62E2 /* Info.plist */,
@@ -233,7 +224,6 @@
 			files = (
 				656C5E7B26F03525005B62E2 /* LaunchScreen.storyboard in Resources */,
 				656C5E7826F03525005B62E2 /* Assets.xcassets in Resources */,
-				656C5E7626F03523005B62E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				656C5E7326F03523005B62E2 /* ViewController.swift in Sources */,
 				656C5E6F26F03523005B62E2 /* AppDelegate.swift in Sources */,
-				656C5E7126F03523005B62E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +284,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		656C5E7426F03523005B62E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				656C5E7526F03523005B62E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		656C5E7926F03525005B62E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +418,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Apptunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mpsc.Apptunes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,6 +437,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Apptunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mpsc.Apptunes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
