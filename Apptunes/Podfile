@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Apptunes' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Apptunes
+  
+  # https://github.com/vhesener/Closures
+  pod 'Closures'
+  
+  # https://github.com/AliSoftware/Reusable
+  pod 'Reusable'
+  
+  # https://github.com/onevcat/Kingfisher
+  pod 'Kingfisher
+  
+  # https://github.com/SnapKit/SnapKit
+  pod 'SnapKit'
+  
+  # https://github.com/SwiftyJSON/SwiftyJSON
+  pod 'SwiftyJSON'
+
+  target 'ApptunesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ApptunesUITests' do
+    # Pods for testing
+  end
+
+end
