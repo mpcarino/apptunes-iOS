@@ -6,5 +6,5 @@
   
 */
 
-"url.root"                      = "https://itunes.apple.com/";
-"path.tracks.search"            = "search?term=star&amp;country=au&amp;media=movie&amp;all";
+"url.itunes.root"               = "https://itunes.apple.com/";
+"path.itunes.tracks.search"     = "search?term=star&amp;country=au&amp;media=movie&amp;all";

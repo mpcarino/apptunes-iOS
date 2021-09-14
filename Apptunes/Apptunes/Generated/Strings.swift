@@ -12,14 +12,18 @@ import Foundation
 internal enum L10n {
   internal enum APIs {
     internal enum Path {
-      internal enum Tracks {
-        /// search?term=star&amp;country=au&amp;media=movie&amp;all
-        internal static let search = L10n.tr("APIs", "path.tracks.search")
+      internal enum Itunes {
+        internal enum Tracks {
+          /// search?term=star&amp;country=au&amp;media=movie&amp;all
+          internal static let search = L10n.tr("APIs", "path.itunes.tracks.search")
+        }
       }
     }
     internal enum Url {
-      /// https://itunes.apple.com/
-      internal static let root = L10n.tr("APIs", "url.root")
+      internal enum Itunes {
+        /// https://itunes.apple.com/
+        internal static let root = L10n.tr("APIs", "url.itunes.root")
+      }
     }
   }
   internal enum Literals {
