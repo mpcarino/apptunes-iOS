@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -122,9 +122,16 @@
 		656C5E6D26F03523005B62E2 /* Apptunes */ = {
 			isa = PBXGroup;
 			children = (
-				656C5EA026F037FA005B62E2 /* Resources */,
 				656C5E9F26F037C7005B62E2 /* Config */,
 				656C5E9E26F0378E005B62E2 /* App */,
+				656C5EA926F03E1B005B62E2 /* Extensions */,
+				656C5EA326F03DCE005B62E2 /* Helpers */,
+				656C5EA526F03DE9005B62E2 /* Clients */,
+				656C5EA426F03DE0005B62E2 /* Services */,
+				656C5EA626F03DF5005B62E2 /* Models */,
+				656C5EA826F03E0A005B62E2 /* Scenes */,
+				656C5EA726F03DF9005B62E2 /* Components */,
+				656C5EA026F037FA005B62E2 /* Resources */,
 				656C5E7926F03525005B62E2 /* LaunchScreen.storyboard */,
 			);
 			path = Apptunes;
@@ -173,6 +180,55 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		656C5EA326F03DCE005B62E2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		656C5EA426F03DE0005B62E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		656C5EA526F03DE9005B62E2 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		656C5EA626F03DF5005B62E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		656C5EA726F03DF9005B62E2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		656C5EA826F03E0A005B62E2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		656C5EA926F03E1B005B62E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		AA076129F92F6D4CA2276ED7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,7 +239,6 @@
 				B21AED96299BBE50383F6C7D /* Pods-ApptunesTests.debug.xcconfig */,
 				0FD7D9433DD556E735102D9B /* Pods-ApptunesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
