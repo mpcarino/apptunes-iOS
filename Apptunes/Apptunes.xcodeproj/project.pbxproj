@@ -208,9 +208,7 @@
 		656C5EA326F03DCE005B62E2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				656C5EB026F043C2005B62E2 /* RefreshableViewProtocol.swift */,
-				656C5EB226F043CA005B62E2 /* ShadowProtocol.swift */,
-				656C5EB426F043D1005B62E2 /* BorderProtocol.swift */,
+				656C5ECC26F04E19005B62E2 /* Protocols */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -319,6 +317,16 @@
 				656C5EC726F04D56005B62E2 /* UserDataStore.xcdatamodeld */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		656C5ECC26F04E19005B62E2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				656C5EB026F043C2005B62E2 /* RefreshableViewProtocol.swift */,
+				656C5EB226F043CA005B62E2 /* ShadowProtocol.swift */,
+				656C5EB426F043D1005B62E2 /* BorderProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		AA076129F92F6D4CA2276ED7 /* Pods */ = {
