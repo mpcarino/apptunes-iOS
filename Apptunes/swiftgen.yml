@@ -25,7 +25,7 @@
 ##   - To know which params are supported for a template, use `swiftgen template doc xcassets swift5` to open the template documentation on GitHub.
  xcassets:
    inputs:
-     - Apptunes/Resources/Images.xcassets
+     - Apptunes/Resources/Assets.xcassets
      - Apptunes/Resources/Colors.xcassets
    outputs:
      - templateName: swift5
