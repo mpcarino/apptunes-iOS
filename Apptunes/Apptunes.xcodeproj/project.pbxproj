@@ -26,6 +26,7 @@
 		656C5EC926F04D56005B62E2 /* UserDataStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 656C5EC726F04D56005B62E2 /* UserDataStore.xcdatamodeld */; };
 		656C5ECB26F04DC2005B62E2 /* ItunesTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5ECA26F04DC2005B62E2 /* ItunesTrack.swift */; };
 		656C5ECF26F04E5F005B62E2 /* ItunesTrackType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5ECE26F04E5F005B62E2 /* ItunesTrackType.swift */; };
+		656C5ED326F05109005B62E2 /* APIModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5ED226F05109005B62E2 /* APIModelProtocol.swift */; };
 		BAC486EA272D5461D14C5CC9 /* Pods_Apptunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EE47FCD7A0DEA247D32749 /* Pods_Apptunes.framework */; };
 		F67F7306C5DA0FA63FE81DC7 /* Pods_Apptunes_ApptunesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661C7A8679802203546761AF /* Pods_Apptunes_ApptunesUITests.framework */; };
 		FCC6C03509BB066B3D39C3CD /* Pods_ApptunesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA57A4CD43DDE2E0FED2D68 /* Pods_ApptunesTests.framework */; };
@@ -77,6 +78,7 @@
 		656C5EC826F04D56005B62E2 /* UserDataStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserDataStore.xcdatamodel; sourceTree = "<group>"; };
 		656C5ECA26F04DC2005B62E2 /* ItunesTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesTrack.swift; sourceTree = "<group>"; };
 		656C5ECE26F04E5F005B62E2 /* ItunesTrackType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesTrackType.swift; sourceTree = "<group>"; };
+		656C5ED226F05109005B62E2 /* APIModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModelProtocol.swift; sourceTree = "<group>"; };
 		661C7A8679802203546761AF /* Pods_Apptunes_ApptunesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apptunes_ApptunesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		676D1C301222C5D51BA32311 /* Pods-Apptunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apptunes.release.xcconfig"; path = "Target Support Files/Pods-Apptunes/Pods-Apptunes.release.xcconfig"; sourceTree = "<group>"; };
 		B21AED96299BBE50383F6C7D /* Pods-ApptunesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApptunesTests.debug.xcconfig"; path = "Target Support Files/Pods-ApptunesTests/Pods-ApptunesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 				656C5EB026F043C2005B62E2 /* RefreshableViewProtocol.swift */,
 				656C5EB226F043CA005B62E2 /* ShadowProtocol.swift */,
 				656C5EB426F043D1005B62E2 /* BorderProtocol.swift */,
+				656C5ED226F05109005B62E2 /* APIModelProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -623,6 +626,7 @@
 				656C5EAF26F04325005B62E2 /* DesignableView.swift in Sources */,
 				656C5ECF26F04E5F005B62E2 /* ItunesTrackType.swift in Sources */,
 				656C5EB826F04514005B62E2 /* UIView+Animation.swift in Sources */,
+				656C5ED326F05109005B62E2 /* APIModelProtocol.swift in Sources */,
 				656C5EB326F043CA005B62E2 /* ShadowProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
