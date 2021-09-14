@@ -12,6 +12,7 @@
 		656C5E7B26F03525005B62E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656C5E7926F03525005B62E2 /* LaunchScreen.storyboard */; };
 		656C5E8626F03526005B62E2 /* ApptunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5E8526F03526005B62E2 /* ApptunesTests.swift */; };
 		656C5E9126F03526005B62E2 /* ApptunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5E9026F03526005B62E2 /* ApptunesUITests.swift */; };
+		656C5EA226F03836005B62E2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656C5EA126F03836005B62E2 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		656C5E8C26F03526005B62E2 /* ApptunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApptunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		656C5E9026F03526005B62E2 /* ApptunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptunesUITests.swift; sourceTree = "<group>"; };
 		656C5E9226F03526005B62E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656C5EA126F03836005B62E2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +95,9 @@
 		656C5E6D26F03523005B62E2 /* Apptunes */ = {
 			isa = PBXGroup;
 			children = (
+				656C5EA026F037FA005B62E2 /* Resources */,
 				656C5E9F26F037C7005B62E2 /* Config */,
 				656C5E9E26F0378E005B62E2 /* App */,
-				656C5E7726F03525005B62E2 /* Assets.xcassets */,
 				656C5E7926F03525005B62E2 /* LaunchScreen.storyboard */,
 			);
 			path = Apptunes;
@@ -133,6 +135,15 @@
 				656C5E7C26F03525005B62E2 /* Info.plist */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		656C5EA026F037FA005B62E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				656C5E7726F03525005B62E2 /* Assets.xcassets */,
+				656C5EA126F03836005B62E2 /* Colors.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656C5EA226F03836005B62E2 /* Colors.xcassets in Resources */,
 				656C5E7B26F03525005B62E2 /* LaunchScreen.storyboard in Resources */,
 				656C5E7826F03525005B62E2 /* Assets.xcassets in Resources */,
 			);
@@ -433,7 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Apptunes/Info.plist;
+				INFOPLIST_FILE = Apptunes/Config/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Apptunes/Info.plist;
+				INFOPLIST_FILE = Apptunes/Config/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
