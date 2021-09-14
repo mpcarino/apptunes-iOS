@@ -1,0 +1,11 @@
+/* 
+  Literals.strings
+  Apptunes
+
+  Created by Marwin Carino on 9/14/21.
+  
+*/
+
+// MARK: - Errors
+"error.api.title"               = "Error Occured";
+"error.api.message"             = "Sorry, we are unable to process your request right now. Please try again later.";
