@@ -132,7 +132,6 @@
 				656C5EA826F03E0A005B62E2 /* Scenes */,
 				656C5EA726F03DF9005B62E2 /* Components */,
 				656C5EA026F037FA005B62E2 /* Resources */,
-				656C5E7926F03525005B62E2 /* LaunchScreen.storyboard */,
 			);
 			path = Apptunes;
 			sourceTree = "<group>";
@@ -218,6 +217,7 @@
 		656C5EA826F03E0A005B62E2 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				656C5EAA26F04010005B62E2 /* Launch */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -227,6 +227,14 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		656C5EAA26F04010005B62E2 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				656C5E7926F03525005B62E2 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
 			sourceTree = "<group>";
 		};
 		AA076129F92F6D4CA2276ED7 /* Pods */ = {
